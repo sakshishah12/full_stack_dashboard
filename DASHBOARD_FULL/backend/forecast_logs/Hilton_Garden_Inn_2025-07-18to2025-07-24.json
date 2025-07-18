@@ -1,0 +1,37 @@
+[
+    {
+        "date": "2025-07-18",
+        "predicted_total_bookings": 32,
+        "reasoning": "Confirmed bookings are at 20. The Huntington Manor Fireman\u2019s Fair (High Demand) is likely driving additional bookings. Given the high demand event and current bookings, I predict 32 total bookings. The current price is $180, which is reasonable."
+    },
+    {
+        "date": "2025-07-19",
+        "predicted_total_bookings": 38,
+        "reasoning": "Confirmed bookings are at 25. July 19th has multiple events, including the Huntington Manor Fireman\u2019s Fair (High Demand) and the Billy Joel Tribute Concert (Medium Demand). The cumulative effect of these events, especially the Fireman's Fair, will likely increase bookings. I predict 38 total bookings. The current price is $200, which is reasonable given the demand."
+    },
+    {
+        "date": "2025-07-20",
+        "predicted_total_bookings": 23,
+        "reasoning": "Confirmed bookings are at 18. There are no significant events listed for this date. Bookings are likely to be driven by standard weekend travel. I predict 23 total bookings. The current price is $190, which is reasonable."
+    },
+    {
+        "date": "2025-07-21",
+        "predicted_total_bookings": 26,
+        "reasoning": "Confirmed bookings are at 24. There are no events listed for this date. Bookings are likely to be driven by standard weekday travel. I predict 26 total bookings. The current price is $200, which is reasonable."
+    },
+    {
+        "date": "2025-07-22",
+        "predicted_total_bookings": 24,
+        "reasoning": "Confirmed bookings are at 22. There are no events listed for this date. Bookings are likely to be driven by standard weekday travel. I predict 24 total bookings. The current price is $190, which is reasonable."
+    },
+    {
+        "date": "2025-07-23",
+        "predicted_total_bookings": 28,
+        "reasoning": "Confirmed bookings are at 20. The Terryville Carnival (Medium Demand) is likely driving additional bookings. Given the medium demand event and current bookings, I predict 28 total bookings. The current price is $200, which is reasonable."
+    },
+    {
+        "date": "2025-07-24",
+        "predicted_total_bookings": 28,
+        "reasoning": "Confirmed bookings are at 18. The Terryville Carnival (Medium Demand) continues, and there are several low-demand events in Stony Brook. The carnival is the primary driver. I predict 28 total bookings. The current price is $210, which is slightly high but potentially justified by the carnival."
+    }
+]

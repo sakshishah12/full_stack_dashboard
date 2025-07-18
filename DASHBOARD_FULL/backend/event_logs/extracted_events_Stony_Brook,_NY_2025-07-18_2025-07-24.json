@@ -1,0 +1,110 @@
+[
+    {
+        "name": "COURTYARD CONCERT: Billy Joel Tribute band We May Be Right",
+        "date": "July 19, 2025",
+        "location": "Suffolk County Vanderbilt Museum, Centerport",
+        "demand": "Medium"
+    },
+    {
+        "name": "Huntington Manor Fireman\u2019s Fair",
+        "date": "July 18, 2025",
+        "location": "Henry L. Stimson Middle School, Huntington Station",
+        "demand": "High"
+    },
+    {
+        "name": "Huntington Manor Fireman\u2019s Fair",
+        "date": "July 19, 2025",
+        "location": "Henry L. Stimson Middle School, Huntington Station",
+        "demand": "High"
+    },
+    {
+        "name": "Library Craft Fair",
+        "date": "July 19, 2025",
+        "location": "Sachem Public Library, Holbrook",
+        "demand": "Low"
+    },
+    {
+        "name": "Sound Beach FD Parade",
+        "date": "July 19, 2025",
+        "location": "Sound Beach Fire Department, Sound Beach",
+        "demand": "Low"
+    },
+    {
+        "name": "SBCA Car Show",
+        "date": "July 19, 2025",
+        "location": "Stony Brook Christian Assembly, East Setauket",
+        "demand": "Low"
+    },
+    {
+        "name": "Library Book Sale",
+        "date": "July 19, 2025",
+        "location": "North Shore Public Library, Shoreham",
+        "demand": "Low"
+    },
+    {
+        "name": "Corn Festival & Pow Wow",
+        "date": "July 19, 2025",
+        "location": "Setauket Elementary School, Setauket",
+        "demand": "Low"
+    },
+    {
+        "name": "The One Hit Wonderers",
+        "date": "July 19, 2025",
+        "location": "Theatre Three, Port Jefferson",
+        "demand": "Low"
+    },
+    {
+        "name": "Community Band Concert",
+        "date": "July 24, 2025",
+        "location": "Robert W. Krueger Bandshell in Northport Village Park, Northport",
+        "demand": "Low"
+    },
+    {
+        "name": "Terryville Carnival",
+        "date": "July 23, 2025",
+        "location": "Terryville Fire Department, Port Jefferson Station",
+        "demand": "Medium"
+    },
+    {
+        "name": "Sunset Concerts",
+        "date": "July 23, 2025",
+        "location": "Harborfront Park, Port Jefferson",
+        "demand": "Low"
+    },
+    {
+        "name": "Easy Street in Concert",
+        "date": "July 23, 2025",
+        "location": "Chamber Train Car Park, Port Jefferson Station",
+        "demand": "Low"
+    },
+    {
+        "name": "Terryville Carnival",
+        "date": "July 24, 2025",
+        "location": "Terryville Fire Department, Port Jefferson Station",
+        "demand": "Medium"
+    },
+    {
+        "name": "Art of the Guitar Festival",
+        "date": "July 24, 2025",
+        "location": "The Jazz Loft, Stony Brook",
+        "demand": "Low"
+    },
+    {
+        "name": "Native American Drumming",
+        "date": "July 24, 2025",
+        "location": "All Souls Parish House, Stony Brook",
+        "demand": "Low"
+    },
+    {
+        "name": "1 Step Ahead in Concert",
+        "date": "July 24, 2025",
+        "location": "Long Island Museum, Stony Brook",
+        "demand": "Low"
+    },
+    {
+        "name": "Dennis Cannataro Concert Series",
+        "date": "July 24, 2025",
+        "location": "Smithtown Library, Smithtown",
+        "demand": "Low"
+    }
+]

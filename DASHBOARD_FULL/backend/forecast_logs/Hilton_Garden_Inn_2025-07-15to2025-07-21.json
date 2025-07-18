@@ -1,0 +1,37 @@
+[
+    {
+        "date": "2025-07-15",
+        "predicted_total_bookings": 19,
+        "reasoning": "Confirmed bookings are at 18. The current price is $140. Given the average rating of 8.4 and the historical booking pace, a slight increase of 1 booking is expected."
+    },
+    {
+        "date": "2025-07-16",
+        "predicted_total_bookings": 22,
+        "reasoning": "Confirmed bookings are at 21. The current price is $135, which is slightly lower than the previous day. Expecting a slight increase of 1 booking due to price."
+    },
+    {
+        "date": "2025-07-17",
+        "predicted_total_bookings": 26,
+        "reasoning": "Confirmed bookings are at 25. The current price is $145. Expecting a slight increase of 1 booking to reach 26 due to the current booking trend."
+    },
+    {
+        "date": "2025-07-18",
+        "predicted_total_bookings": 23,
+        "reasoning": "Based on the trend of the previous days, and without specific event data for this date, a moderate booking level is expected. Factoring in the average rating and price point, I predict 23 bookings."
+    },
+    {
+        "date": "2025-07-19",
+        "predicted_total_bookings": 25,
+        "reasoning": "There are two 'Medium' demand events (Pop-Up Saturdays) at Stony Brook Village Center. This is likely to increase demand for hotel rooms. Predicting 25 bookings to reflect this increase."
+    },
+    {
+        "date": "2025-07-20",
+        "predicted_total_bookings": 26,
+        "reasoning": "There is a 'Medium' demand event (Summer Concerts) at Stony Brook Village Center. This is likely to increase demand for hotel rooms. Predicting 26 bookings to reflect this increase."
+    },
+    {
+        "date": "2025-07-21",
+        "predicted_total_bookings": 20,
+        "reasoning": "Following the weekend events, demand is expected to decrease. Predicting 20 bookings as the demand returns to a normal weekday level."
+    }
+]

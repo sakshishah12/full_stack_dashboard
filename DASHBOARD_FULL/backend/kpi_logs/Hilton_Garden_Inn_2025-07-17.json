@@ -1,0 +1,164 @@
+{
+  "hotel_name": "Hilton Garden Inn",
+  "location": "Stony Brook",
+  "date_range": "July 17, 2025 - July 24, 2025",
+  "competitiveRateSnapshot": {
+    "leadRateTonight": 160.0,
+    "compSetMedianTonight": 209.0,
+    "compSetRateRange": "179.0 - 319.0",
+    "rateRankTonight": "1 of 6",
+    "futureRateIndex": 90,
+    "futureRateChange": "-10% vs CompSet Median",
+    "futureRateComparison": {
+      "labels": [
+        "2025-07-17",
+        "2025-07-18",
+        "2025-07-19",
+        "2025-07-20",
+        "2025-07-21",
+        "2025-07-22",
+        "2025-07-23",
+        "2025-07-24"
+      ],
+      "yourHotelRates": [
+        160.0,
+        180.0,
+        200.0,
+        190.0,
+        200.0,
+        190.0,
+        200.0,
+        210.0
+      ],
+      "compSetMedianRates": [
+        209.0,
+        239.0,
+        259.0,
+        199.0,
+        189.0,
+        189.0,
+        199.0,
+        209.0
+      ]
+    },
+    "rateParityStatus": "Unknown",
+    "parityDetails": "N/A",
+    "competitorRateChanges": {
+      "increased": 0,
+      "decreased": 0,
+      "avgIncrease": "$0",
+      "avgDecrease": "$0"
+    }
+  },
+  "localEvents": [
+    {
+      "name": "COURTYARD CONCERT: Billy Joel Tribute band We May Be Right",
+      "date": "July 19, 2025",
+      "location": "Suffolk County Vanderbilt Museum, Centerport",
+      "demand": "Medium"
+    },
+    {
+      "name": "Huntington Manor Fireman\u2019s Fair",
+      "date": "July 18, 2025",
+      "location": "Henry L. Stimson Middle School, Huntington Station",
+      "demand": "High"
+    },
+    {
+      "name": "Huntington Manor Fireman\u2019s Fair",
+      "date": "July 19, 2025",
+      "location": "Henry L. Stimson Middle School, Huntington Station",
+      "demand": "High"
+    },
+    {
+      "name": "Library Craft Fair",
+      "date": "July 19, 2025",
+      "location": "Sachem Public Library, Holbrook",
+      "demand": "Low"
+    },
+    {
+      "name": "Sound Beach FD Parade",
+      "date": "July 19, 2025",
+      "location": "Sound Beach Fire Department, Sound Beach",
+      "demand": "Low"
+    },
+    {
+      "name": "SBCA Car Show",
+      "date": "July 19, 2025",
+      "location": "Stony Brook Christian Assembly, East Setauket",
+      "demand": "Low"
+    },
+    {
+      "name": "Library Book Sale",
+      "date": "July 19, 2025",
+      "location": "North Shore Public Library, Shoreham",
+      "demand": "Low"
+    },
+    {
+      "name": "Corn Festival & Pow Wow",
+      "date": "July 19, 2025",
+      "location": "Setauket Elementary School, Setauket",
+      "demand": "Low"
+    },
+    {
+      "name": "The One Hit Wonderers",
+      "date": "July 19, 2025",
+      "location": "Theatre Three, Port Jefferson",
+      "demand": "Low"
+    },
+    {
+      "name": "Community Band Concert",
+      "date": "July 24, 2025",
+      "location": "Robert W. Krueger Bandshell in Northport Village Park, Northport",
+      "demand": "Low"
+    },
+    {
+      "name": "Terryville Carnival",
+      "date": "July 23, 2025",
+      "location": "Terryville Fire Department, Port Jefferson Station",
+      "demand": "Medium"
+    },
+    {
+      "name": "Sunset Concerts",
+      "date": "July 23, 2025",
+      "location": "Harborfront Park, Port Jefferson",
+      "demand": "Low"
+    },
+    {
+      "name": "Easy Street in Concert",
+      "date": "July 23, 2025",
+      "location": "Chamber Train Car Park, Port Jefferson Station",
+      "demand": "Low"
+    },
+    {
+      "name": "Terryville Carnival",
+      "date": "July 24, 2025",
+      "location": "Terryville Fire Department, Port Jefferson Station",
+      "demand": "Medium"
+    },
+    {
+      "name": "Art of the Guitar Festival",
+      "date": "July 24, 2025",
+      "location": "The Jazz Loft, Stony Brook",
+      "demand": "Low"
+    },
+    {
+      "name": "Native American Drumming",
+      "date": "July 24, 2025",
+      "location": "All Souls Parish House, Stony Brook",
+      "demand": "Low"
+    },
+    {
+      "name": "1 Step Ahead in Concert",
+      "date": "July 24, 2025",
+      "location": "Long Island Museum, Stony Brook",
+      "demand": "Low"
+    },
+    {
+      "name": "Dennis Cannataro Concert Series",
+      "date": "July 24, 2025",
+      "location": "Smithtown Library, Smithtown",
+      "demand": "Low"
+    }
+  ],
+  "eventLogLoadError": ""
+}

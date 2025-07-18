@@ -1,0 +1,11 @@
+[
+    {
+        "hotel_name": "Hilton Garden Inn",
+        "location": "Stony Brook, NY",
+        "start_date": "June 17, 2025",
+        "end_date": "July 17, 2025",
+        "review_count": 1,
+        "average_rating": 8.0,
+        "source_summary": "Data found from Booking.com"
+    }
+]

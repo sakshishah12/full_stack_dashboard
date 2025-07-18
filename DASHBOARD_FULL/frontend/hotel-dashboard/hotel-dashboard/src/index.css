@@ -1,0 +1,770 @@
+:root {
+  --section-width: 1075px; /* Define width globally */
+}
+.summary-bar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;  /* Space between cards */
+  justify-content: center;
+  padding: 0 32px; /* Adds side margins */
+  max-width: 1200px; /* Prevents excessive stretching */
+  margin: 0 auto; /* Centers within the screen */
+}
+
+.summary-bar-card {
+  background-color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 120px; /* Reduced width to fit all cards */
+  min-width: 120px;
+  flex-grow: 1;
+}
+  
+.summary-bar-title {
+  font-size: 0.75rem;
+  color: #a0aec0;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+  
+.summary-bar-value {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c5282;
+}
+
+.dashboard-title {
+  font-family: 'Poppins', sans-serif;
+  color: #2c5282; /* Tailwind blue-800 */
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* This container centers its inline children */
+.kpi-section-inner {
+  text-align: center;
+}
+.kpi-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  /* Removing extra padding so wrapper width is based solely on card content */
+  margin: 0 auto;
+}
+
+.kpi-card {
+  background-color: white;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  width: 160px;   
+  min-width: 140px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.kpi-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),
+              0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+.kpi-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.kpi-section-title {
+  font-family: 'Poppins', sans-serif;
+  color: #2c5282;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Additional classes for text colors */
+.text-positive {
+  color: #38a169;
+}
+
+.text-negative {
+  color: #e53e3e;
+}
+
+.text-neutral {
+  color: #718096;
+}
+
+.kpi-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #718096;
+}
+
+.kpi-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.kpi-change {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+/* Gauge Styles */
+.gauge-container { 
+  width: 120px; 
+  height: 60px; 
+  border-radius: 120px 120px 0 0; 
+  background-color: #e2f0e4; 
+  position: relative; 
+  overflow: hidden; 
+  margin: 0.5rem auto 0; 
+}
+.summary-bar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;  /* Space between cards */
+  justify-content: center;
+  padding: 0 32px; /* Adds side margins */
+  max-width: 1200px; /* Prevents excessive stretching */
+  margin: 0 auto; /* Centers within the screen */
+}
+
+.summary-bar-card {
+  background-color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 120px; /* Reduced width to fit all cards */
+  min-width: 120px;
+  flex-grow: 1;
+}
+  
+.summary-bar-title {
+  font-size: 0.75rem;
+  color: #a0aec0;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+  
+.summary-bar-value {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c5282;
+}
+
+.dashboard-title {
+  font-family: 'Poppins', sans-serif;
+  color: #2c5282; /* Tailwind blue-800 */
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* This container centers its inline children */
+.kpi-section-inner {
+  text-align: center;
+}
+
+
+.kpi-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  /* Removing extra padding so wrapper width is based solely on card content */
+  margin: 0 auto;
+}
+
+.kpi-card .chart-card {
+  background-color: white;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  width: 160px;   
+  min-width: 140px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.kpi-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),
+              0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+.kpi-divider {
+  width: 100%;
+  max-width: var(--section-width);
+  height: 2px;
+  background-color: #cbd5e0; /* Light gray */
+  margin: 16px 0;
+  border: none;
+}
+
+.kpi-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.kpi-section-title {
+  font-family: 'Poppins', sans-serif;
+  color: #2c5282;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Additional classes for text colors */
+.text-positive {
+  color: #38a169;
+}
+
+.text-negative {
+  color: #e53e3e;
+}
+
+.text-neutral {
+  color: #718096;
+}
+
+.kpi-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #718096;
+}
+
+.kpi-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+
+.gauge-fill { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  height: 100%; 
+  background-color: #3182ce; 
+  transition: width 0.6s ease-out; 
+}
+.gauge-cover { 
+  width: 100px; 
+  height: 50px; 
+  border-radius: 100px 100px 0 0; 
+  background-color: white; 
+  position: absolute; 
+  top: 10px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+}
+.gauge-value { 
+  font-size: 1.125rem; 
+  font-weight: 700; 
+  color: #1a202c; 
+}
+.chart-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background-color: white;
+  margin-top: 10px;
+}
+
+canvas#keyMetricsTrendChart {
+  display: block;
+  width: 100% !important;
+  height: 100% !important; /* Forces the chart to fit inside the container */
+}
+
+.revenue-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.revenue-section-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #374151;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.revenue-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),
+              0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+.revenue-card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #718096;
+}
+
+.revenue-card-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.chart-wrapper {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+.kpi-change-positive {
+  color: #38a169; /* Tailwind green-500 */
+  font-weight: 600;
+}
+
+.kpi-change-negative {
+  color: #e53e3e; /* Tailwind red-500 */
+  font-weight: 600;
+}
+
+.text-positive {
+  color: #10b981;
+}
+
+.text-negative {
+  color: #ef4444;
+}
+
+.chart-containerkpi {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Fixed height to prevent oversizing */
+  max-height: 350px; /* Ensures it stays within the card */
+  overflow: hidden; /* Prevents unwanted scrolling */
+}
+
+.revenue-content {
+  display: flex;
+  flex-wrap: nowrap; /* Prevents items from moving to a new line */
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 16px;
+}
+
+
+.revenue-charts {
+  display: flex;
+  justify-content: space-between; /* Ensures equal spacing */
+  gap: 16px;
+  width: 100%;
+  max-width: var(--section-width);
+}
+.revenue-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--section-width);
+  gap: 16px;
+}
+
+
+.revenue-charts {
+  display: flex;
+  justify-content: center; /* Keeps charts perfectly aligned */
+  gap: 16px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.chart-container {
+  flex: 1;
+  min-height: 300px;
+  height: auto;
+  width: 32%; /* Ensures equal chart width */
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.revenue-card {
+  background-color: white;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  flex:1;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  width: 1500px;   
+  min-width: auto;
+  flex-shrink: 0;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.kpi-wrapper,
+.revenue-wrapper {
+  max-width: var(--section-width); /* Both sections inherit the same width */
+  margin: 0 auto; /* Centers content */
+}
+
+/* Centering & Structure */
+.ops-cost-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensures perfect centering */
+  justify-content: center;
+  max-width: var(--section-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.ops-cost-card {
+  flex: 1;
+  background-color: white;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  flex-shrink: 0;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.ops-cost-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),
+              0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+.ops-cost-cards {
+  display: flex;
+  justify-content: center; /* Centers elements */
+  width: 100%;
+  max-width: var(--section-width);
+  gap: 16px;
+}
+
+.ops-cost-charts {
+  display: flex;
+  justify-content: center; /* Ensures perfect centering */
+  width: 100%;
+  max-width: var(--section-width); /* Matches KPI section */
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.ops-chart-container {
+  flex: 1;
+  width: 100%;
+  max-width: var(--section-width); /* Ensure it matches KPI section */
+  background-color: white;
+  padding: 1rem; /* Reduce padding to prevent shrinkage */
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section Wrapper */
+.guest-exp-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--section-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* KPI Cards */
+.guest-exp-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--section-width);
+  gap: 16px;
+}
+
+.guest-exp-card {
+  flex: 1;
+  background-color: white;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.guest-exp-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),
+              0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+/* Charts */
+.guest-exp-charts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: var(--section-width);
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.guest-chart-container {
+  flex: 1;
+  width: 100%;
+  max-width: var(--section-width); /* Ensure it matches KPI section */
+  background-color: white;
+  padding: 1rem; /* Reduce padding to prevent shrinkage */
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-volume {
+  color: black !important;
+  font-weight: 600;
+}
+
+/* Section Wrapper */
+.distribution-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--section-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* KPI Cards */
+.distribution-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--section-width);
+  gap: 16px;
+}
+
+.distribution-card {
+  flex: 1;
+  background-color: white;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.distribution-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+/* Charts */
+.distribution-charts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: var(--section-width);
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.distribution-chart-container {
+  flex: 1;
+  width: 100%;
+  max-width: var(--section-width);
+  height: 250px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section Wrapper */
+.market-benchmarking-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--section-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* KPI Row Containers */
+.market-benchmarking-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: var(--section-width);
+  gap: 10px; /* Adjust the spacing between cards */
+  margin-bottom: 10px; /* Ensure proper row spacing */
+}
+
+/* KPI Cards */
+.market-benchmarking-kpi-card {
+  flex: 1;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  min-width: 150px;
+  max-width: 220px; /* Ensure consistent width */
+}
+
+/* Hover Effect */
+.market-benchmarking-kpi-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Chart Container */
+.market-benchmarking-charts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: var(--section-width);
+  margin-top: 12px;
+}
+
+.market-chart-container {
+  width: 100%;
+  max-width: var(--section-width);
+  height: 250px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Section Wrapper */
+.competitive-rate-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--section-width);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* KPI Cards */
+.competitive-rate-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Ensures 4 cards per row */
+  gap: 10px; 
+  width: 100%;
+  max-width: var(--section-width);
+}
+
+.competitive-kpi-card {
+  flex: 1;
+  background-color: white;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.competitive-kpi-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.kpi-icon {
+  width: 24px;
+  height: 24px;
+  stroke-width: 1.5;
+  color: #2d3748; /* Dark gray */
+}
+
+.kpi-change-neutral {
+  color: #718096; /* Gray */
+  font-weight: 600;
+}
+
+
+
+/* Charts */
+.competitive-rate-charts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: var(--section-width);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.competitive-rate-cards:first-of-type {
+  margin-bottom: 16px; /* Adds space below the first row */
+}
+
+.competitive-chart-container {
+  flex: 1;
+  width: 100%;
+  max-width: var(--section-width);
+  height: 250px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  width: 100% !important;
+  height: 250px !important;
+}
